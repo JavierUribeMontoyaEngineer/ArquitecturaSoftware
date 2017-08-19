@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<programa xmlns="http://www.um.es/programasRTVE" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.um.es/programasRTVE ../schema/programa.xsd"
+	id="acacias-38" urlPrograma="http://www.rtve.es/m/alacarta/videos/acacias-38/?media=tve"
+	urlImagen="http://img.rtve.es/imagenes/acacias-38/1425305370705.png">
+	<nombre>Acacias 38</nombre>
+	<emision fecha="2017-04-11" tiempo="00:55:30">
+		<titulo>Capítulo 494</titulo>
+		<url>http://www.rtve.es/m/alacarta/videos/acacias-38/acacias-38-capitulo-494/3976680/?media=tve</url>
+	</emision>
+	<emision fecha="2017-04-10" tiempo="00:54:43">
+		<titulo>Capítulo 493</titulo>
+		<url>http://www.rtve.es/m/alacarta/videos/acacias-38/acacias-38-capitulo-493/3974990/?media=tve</url>
+	</emision>
+	<emision fecha="2017-04-07" tiempo="00:56:34">
+		<titulo>Capítulo 492</titulo>
+		<url>http://www.rtve.es/m/alacarta/videos/acacias-38/acacias-38-capitulo-492/3972025/?media=tve</url>
+	</emision>
+	<emision fecha="2017-04-06" tiempo="00:54:00">
+		<titulo>Capítulo 491</titulo>
+		<url>http://www.rtve.es/m/alacarta/videos/acacias-38/acacias-38-capitulo-491/3970302/?media=tve</url>
+	</emision>
+	<emision fecha="2017-04-05" tiempo="00:53:49">
+		<titulo>Capítulo 490</titulo>
+		<url>http://www.rtve.es/m/alacarta/videos/acacias-38/acacias-38-capitulo-490/3968862/?media=tve</url>
+	</emision>
+	<emision fecha="2017-04-04" tiempo="00:54:31">
+		<titulo>Capítulo 489</titulo>
+		<url>http://www.rtve.es/m/alacarta/videos/acacias-38/acacias-38-capitulo-489/3967779/?media=tve</url>
+	</emision>
+	<emision fecha="2017-04-03" tiempo="00:54:52">
+		<titulo>Capítulo 488</titulo>
+		<url>http://www.rtve.es/m/alacarta/videos/acacias-38/acacias-38-capitulo-488/3966725/?media=tve</url>
+	</emision>
+	<emision fecha="2017-03-31" tiempo="00:53:59">
+		<titulo>Capítulo 487</titulo>
+		<url>http://www.rtve.es/m/alacarta/videos/acacias-38/acacias-38-capitulo-487/3963587/?media=tve</url>
+	</emision>
+</programa>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.um.es/programasRTVE"
+	xmlns:tns="http://www.um.es/programasRTVE" elementFormDefault="qualified">
+
+	<simpleType name="tipoUrl">
+		<restriction base="string">
+			<pattern value="http://www.rtve.es/m/.*" />
+		</restriction>
+	</simpleType>
+
+	<element name="programa">
+		<complexType>
+			<sequence>
+				<element name="nombre" type="string" />
+				<element name="emision" minOccurs="0" maxOccurs="unbounded">
+					<complexType>
+						<sequence>
+							<element name="titulo" type="string" />
+							<element name="url" type="tns:tipoUrl" />
+						</sequence>
+						<attribute name="fecha" type="date" use="required" />
+						<attribute name="tiempo" use="required">
+							<simpleType>
+								<restriction base="string">
+									<pattern value="[0-9][0-9]:([0-5][0-9]):[0-5][0-9]" />
+								</restriction>
+							</simpleType>
+						</attribute>
+					</complexType>
+				</element>
+				<element name="productoAmazon" minOccurs="0" maxOccurs="3"
+					type="tns:productoAmazon"></element>
+			</sequence>
+			<attribute name="id" type="string" use="required" />
+			<attribute name="urlPrograma" type="tns:tipoUrl" use="required"></attribute>
+			<attribute name="urlImagen" use="required">
+				<simpleType>
+					<restriction base="string">
+						<pattern value="http://img.rtve.es/imagenes/.*\.(png|jpg|gif)" />
+					</restriction>
+				</simpleType>
+			</attribute>
+		</complexType>
+	</element>
+
+	<complexType name="productoAmazon">
+		<attribute name="ASIN" use="required" type="NMTOKEN"></attribute>
+		<attribute name="titulo" use="required" type="string"></attribute>
+		<attribute name="smallImage" use="required" type="anyURI"></attribute>
+		<attribute name="largeImage" use="required" type="anyURI"></attribute>
+		<attribute name="precioMasBajo" use="required" type="float"></attribute>
+		<attribute name="urlDetallesProducto" use="required" type="anyURI"></attribute>
+	</complexType>
+</schema>

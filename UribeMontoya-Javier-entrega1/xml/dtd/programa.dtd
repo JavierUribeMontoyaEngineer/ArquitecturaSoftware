@@ -1,0 +1,15 @@
+<!ELEMENT programa (nombre, emision+)>
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT emision (titulo, url)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+
+<!ATTLIST programa
+	id NMTOKEN #REQUIRED
+	urlPrograma CDATA #REQUIRED
+	urlImagen CDATA #REQUIRED>
+
+<!ATTLIST emision
+	fecha CDATA #REQUIRED
+	tiempo CDATA #REQUIRED>
